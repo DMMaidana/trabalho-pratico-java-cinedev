@@ -30,7 +30,7 @@ public class TrabalhoPratico02 {
             do{
         System.out.println(" ");
                 
-            System.out.println("Oque voce deseja fazer?");
+            System.out.println("O que voce deseja fazer?");
             System.out.println(" ");
                 
                 System.out.println("1)-Exibir Mapa de assentos- ");
@@ -63,7 +63,7 @@ public class TrabalhoPratico02 {
          
         case 2:
         //Compra de ingressos
-            System.out.println("quantos ingressos deseja comprar? ");
+            System.out.println("Quantos ingressos deseja comprar? ");
                 int nIngressos = teclado.nextInt();
         
             if(nIngressos > 1){
@@ -99,7 +99,7 @@ public class TrabalhoPratico02 {
         //Verifica assento
             if(assentos[nFileira - 1][nAssento - 1 ].equals("|X| ")){
                 
-            System.out.println("Esse acento ja esta ocupado.");
+            System.out.println("Esse assento ja esta ocupado.");
                     
         //Reserva o assento
             }else {
@@ -176,7 +176,7 @@ public class TrabalhoPratico02 {
         }
                 //Verifica assento
                 if(assentos[nFileira - 1][nAssento - 1 ].equals("|L| ")){
-                    System.out.println("Esse acento nao esta ocupado.");
+                    System.out.println("Esse assento nao esta ocupado.");
                     
                 }else {
                 //libera assento
